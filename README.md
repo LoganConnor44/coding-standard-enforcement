@@ -21,7 +21,7 @@ If the code does not meet the defined standard, a message will prompt the develo
 Checking PHP Lint...
 Running Code Sniffer...
 E 1 / 1 (100%)
-FILE: C:\locallamp\web_root\you-project\src\directory\FileName.php
+FILE: C:\locallamp\web_root\your-project\src\directory\FileName.php
 ----------------------------------------------------------------------
 FOUND 2 ERRORS AFFECTING 1 LINE
 ----------------------------------------------------------------------
@@ -36,7 +36,7 @@ PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ## Setup
 1. Create Git Pre Commit Hook Scripts
     * Create a contribution directory named ```contrib```
-    * Create a file names ```setup-hook.sh```
+    * Create a file named ```setup-hook.sh```
     * Copy/Paste the below code into ```setup-hook.sh```
         ```
         #!/bin/sh
